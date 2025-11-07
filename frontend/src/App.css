@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+/* Home.jsx */
+
+.heroButton {
+    @apply p-6 px-12 bg-none rounded-full text-xl border-4 font-bold shadow-xl duration-100 ease-in;
+}
+
+.heroButton:active {
+    @apply shadow-md;
+}
+
+
+/* CourseLanding.jsx, LearningPathLanding.jsx */
+.backButton > img.hoverMode {
+    @apply opacity-0;
+}
+
+.backButton:hover > img.defaultMode {
+    @apply opacity-0;
+}
+
+.backButton:hover > img.hoverMode {
+    @apply opacity-100;
+}
+
+
+/* CourseUnit.jsx */
+.unitContent > h1 {
+    @apply font-bold text-2xl;
+}
+
+.unitContent > h2 {
+    @apply font-bold text-xl mt-6;
+}
+
+.unitContent > h3 {
+    @apply font-bold text-lg mt-4;
+}
+
+.unitContent > p {
+    @apply text-lg;
+}
+
+
+/* Practice.jsx */
+.horizontal-fade-mask {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}

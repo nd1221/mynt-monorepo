@@ -1,0 +1,17 @@
+--INSERT INTO courses (
+--    title,
+--    description,
+--    difficulty,
+--    iconurl,
+--    number_of_enrolled_users,
+--    created_at,
+--    last_updated_at
+--) VALUES (
+--    '',
+--    'This comprehensive course is designed to help aspiring finance professionals prepare for the CFA Level I exam. Covering topics like ethical standards, financial reporting, and portfolio management, it blends theoretical concepts with practical insights. Ideal for those beginning their CFA journey or seeking a structured finance refresher.',
+--    'ADVANCED',
+--    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+--    1372,
+--    '2024-11-02',
+--    '2025-03-20'
+--);
